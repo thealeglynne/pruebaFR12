@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la capital de Francia?",
+      "options": ["Londres", "París", "Madrid", "Berlín"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el río más largo del mundo?",
+      "options": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+      "correctAnswer": 0
+    }
+  ]
+  

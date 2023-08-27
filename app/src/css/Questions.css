@@ -1,0 +1,67 @@
+/* QuestionForm.css */
+.question-form-container {
+  background-image: url("../img/bacs5:2.gif"); /* Fondo negro */
+  background-size: 700px;
+  background-repeat: no-repeat;
+background-position: 30px 100px;
+background-position: 450px 0;
+color: #fff; /* Texto blanco */
+  padding: 20px;
+  font-family: 'MiFuente';
+  font-family: Arial, sans-serif;
+}
+@font-face {
+  font-family: 'MiFuente'; /* Un nombre que elijas para la fuente */
+  src: url('../componentes/fonts/Interfearence.ttf') format('truetype'); /* Ruta a tu archivo de fuente */
+  /* Puedes agregar más formatos de fuente aquí si tienes varios tipos */
+}
+@font-face {
+  font-family: 'MiFuente2'; /* Un nombre que elijas para la fuente */
+  src: url('../componentes/fonts/the_led_display_st/The\ Led\ Display\ St.ttf') format('truetype'); /* Ruta a tu archivo de fuente */
+  /* Puedes agregar más formatos de fuente aquí si tienes varios tipos */
+}
+@font-face {
+  font-family: 'MiFuente3'; /* Un nombre que elijas para la fuente */
+  src: url('../componentes/fonts/the_led_display_st/Calculator.ttf') format('truetype'); /* Ruta a tu archivo de fuente */
+  /* Puedes agregar más formatos de fuente aquí si tienes varios tipos */
+}
+.question-form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'MiFuente';
+}
+
+.question {
+  margin-bottom: 20px;
+  font-family: 'MiFuente2';
+}
+
+.answer-label {
+  display: block;
+  margin-bottom: 10px;  
+  font-family: sans-serif;
+
+}
+
+.submit-button {
+  background-color: #0077ff; /* Botón azul */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0055cc; 
+}
+
+.score {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.incorrect-answers {
+  margin-top: 20px;
+}
+

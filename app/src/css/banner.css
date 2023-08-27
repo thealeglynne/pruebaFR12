@@ -1,0 +1,48 @@
+.banner {
+    height: 3px;
+    background-color: rgba(6, 6, 6, 0.943);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    color: aliceblue;
+    font-family: "MiFuente";
+    font-size: 8px;
+  }
+  @font-face {
+    font-family: 'MiFuente'; 
+    src: url('../componentes/fonts/Interfearence.ttf') format('truetype'); 
+    
+  }
+  .banner__text {
+    font-size: 15spx;
+    animation: moveText 5s infinite alternate;
+    position: relative;
+    top: 7px;
+    user-select: none;
+    display: flex;
+  }
+  
+  .banner__text--show {
+    opacity: 1;
+    
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+  
+  

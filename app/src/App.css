@@ -1,0 +1,17 @@
+.Init{
+    background-image: url("./img/20230824_001312_0000.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: -40%;
+    overflow: hidden;
+    user-select: none;
+}
+body{
+    background-color: black;
+}
+@media screen and (max-width: 1300px) {
+   body{
+    background-position: 50% 0%;
+   }}
+  
